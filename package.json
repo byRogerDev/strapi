@@ -12,11 +12,14 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "@strapi/plugin-color-picker": "4.6.1",
     "@strapi/plugin-i18n": "4.6.1",
     "@strapi/plugin-users-permissions": "4.6.1",
     "@strapi/provider-upload-cloudinary": "4.6.1",
     "@strapi/strapi": "4.6.1",
-    "pg": "8.8.0"
+    "pg": "8.8.0",
+    "strapi-plugin-publisher": "1.2.0",
+    "strapi-plugin-slugify": "2.3.2"
   },
   "author": {
     "name": "A Strapi developer"
@@ -28,5 +31,8 @@
     "node": ">=16.x.x",
     "npm": ">=6.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "workspaces": [
+    "./src/plugins/strapi-plugin-ckeditor"
+  ]
 }
