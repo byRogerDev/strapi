@@ -1134,6 +1134,14 @@
   dependencies:
     ckeditor5 "^36.0.1"
 
+"@ckeditor/ckeditor5-html-support@^36.0.0":
+  version "36.0.1"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-html-support/-/ckeditor5-html-support-36.0.1.tgz#196b2238a3e169435e3fefe2f1f996f3b8f0aa42"
+  integrity sha512-ofOZb+RKKNXikbigyArewijN5lnmCFDUp5k9GTUWpjDCNwEgx+sdBU6qqMKqciJGxY4/gM4qLJ4VQ56dv7r0Wg==
+  dependencies:
+    ckeditor5 "^36.0.1"
+    lodash-es "^4.17.15"
+
 "@ckeditor/ckeditor5-image@^36.0.0":
   version "36.0.1"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-image/-/ckeditor5-image-36.0.1.tgz#82cfb3b3f30d2c9692daec0ca2552159bf287167"
@@ -1238,10 +1246,25 @@
     "@ckeditor/ckeditor5-ui" "^36.0.1"
     "@ckeditor/ckeditor5-utils" "^36.0.1"
 
+"@ckeditor/ckeditor5-source-editing@^36.0.0":
+  version "36.0.1"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-source-editing/-/ckeditor5-source-editing-36.0.1.tgz#3fc48bf48b6b5dfac9ccfa21fa37c0caeadf79b8"
+  integrity sha512-8Hxbmt60G530zDhpVHDeY+USdRKrdGn0spx1YREVbWAhQ1kMV6FUWDGtDJx9Rbj8BRe19AtlT40ctSbKS/XVzQ==
+  dependencies:
+    "@ckeditor/ckeditor5-theme-lark" "^36.0.1"
+    ckeditor5 "^36.0.1"
+
 "@ckeditor/ckeditor5-special-characters@^36.0.0":
   version "36.0.1"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-special-characters/-/ckeditor5-special-characters-36.0.1.tgz#ad8d29caa1f4d6454670d0dd7a581a22a598a245"
   integrity sha512-vYloQvPPU1aGJAkjDWTZvU9BbK7CLsyVg8FV+NSSbdPKAY6K4IPS52jvbCDZBHQqzmeFVEy5U8iMhbZxYdkI6g==
+  dependencies:
+    ckeditor5 "^36.0.1"
+
+"@ckeditor/ckeditor5-style@^36.0.0":
+  version "36.0.1"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-style/-/ckeditor5-style-36.0.1.tgz#bf2cc2a80d47c7a01c1a2b4a84652ed0031db366"
+  integrity sha512-MNFlOm0O9i4uuXk8T50urSL2uAWyoh3/yclgisDpt9NQja4uxmC8JfAEQYlLyTBRX2pLMyKDIAI43ohJB14uKQ==
   dependencies:
     ckeditor5 "^36.0.1"
 
@@ -1253,7 +1276,7 @@
     ckeditor5 "^36.0.1"
     lodash-es "^4.17.15"
 
-"@ckeditor/ckeditor5-theme-lark@^36.0.0":
+"@ckeditor/ckeditor5-theme-lark@^36.0.0", "@ckeditor/ckeditor5-theme-lark@^36.0.1":
   version "36.0.1"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-theme-lark/-/ckeditor5-theme-lark-36.0.1.tgz#404c022946a8b172117eb6fbed18817bfe0a66e0"
   integrity sha512-R7VnSjET52mxHEAt6+GxSHmBKddsRjkVHDxbd13GTkDl01SKjbYfVF+Ek6iVuf6eVyNu6eedRJugShZSsHhXiA==
