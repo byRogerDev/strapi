@@ -24,17 +24,21 @@
       "repeatable": false,
       "component": "seo.seo-component"
     },
+    "video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
     "carousel": {
       "type": "component",
       "repeatable": true,
-      "component": "home.home-posts"
-    },
-    "video": {
-      "allowedTypes": [
-        "videos"
-      ],
-      "type": "media",
-      "multiple": false
+      "component": "home.carousel-posts",
+      "required": true,
+      "max": 5,
+      "min": 3
     }
   }
 }
